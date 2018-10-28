@@ -1,0 +1,100 @@
+        
+        html, body
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        img.bgimg
+        {
+            padding: 0px;
+            margin-top: -10%;
+            width: 100%;
+            position: fixed;
+            z-index: -10;
+            opacity: 0.8;
+        }
+
+        marquee
+        {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 120px;
+            font-weight: bold;
+            margin-left: 10%;
+            margin-right: 10%;
+            letter-spacing: 12px;
+            padding-top: 16px;
+            color: red;
+        }
+        
+        a
+        {
+            text-decoration: none;
+            display: block;
+            color: #000000;
+        }
+
+        a:visited
+        {
+            text-decoration: none;
+        }
+
+        p
+        {
+            font-family: 'Barlow', sans-serif;
+            font-size: 180px;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing: -10px;
+            padding: -40px;
+            margin: 0px;
+            color: #000000;
+        }
+
+        div.errbox
+        {
+            border: 10px solid rgb(136,219,22);
+            border-radius: 12px;
+            margin: 20%;
+            margin-top: 0%;
+            background-image: linear-gradient(#ffffff,rgb(97,221,240));
+            transform: scale(0.7);
+            opacity: 0.9;
+        }
+
+        div.errbox:hover
+        {
+            transform: scale(0.8);
+            filter: drop-shadow(10px 15px 5px #000000);
+            transition: ease-in-out 1s;
+        }
+        /*
+        NOT WORKING
+        p.wrong:nth-child(even)
+        {
+            vertical-align: sub;
+        }
+        */
+        div.icons img
+        {
+            background-color: #ffffff;
+            border: 3px dashed #ffffff;
+            border-radius: 50%;
+            transform: scale(0.4) rotate(360deg);
+            filter: grayscale(100%);
+            opacity: 0.9;
+        }
+
+        div.icons a
+        {
+            text-decoration: none;
+            display: inline;
+        }
+
+        div.icons img:hover
+        {
+            transform: scale(0.6) rotate(0deg);
+            filter: grayscale(0%) drop-shadow(2px 3px 5px #ffffff);
+            transition: 0.5s ease-in-out;
+            opacity: 1;
+        }
